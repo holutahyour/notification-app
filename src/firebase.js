@@ -3,12 +3,12 @@ import { getMessaging, getToken, onMessage } from 'firebase/messaging';
 
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAjfgwBXG4s_TrZrVgSp36hrbItGifTSb4",
-    authDomain: "notification-project-376be.firebaseapp.com",
-    projectId: "notification-project-376be",
-    storageBucket: "notification-project-376be.appspot.com",
-    messagingSenderId: "257809984305",
-    appId: "1:257809984305:web:b0df0e75ae956a7e14de10"
+    apiKey: "apiKey",
+    authDomain: "authDomain",
+    projectId: "projectId",
+    storageBucket: "storageBucket",
+    messagingSenderId: "messagingSenderId",
+    appId: "appId"
 };
 
 // Initialize Firebase

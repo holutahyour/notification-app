@@ -6,10 +6,11 @@ const Notification = () => {
 
   useEffect(() => {
     const connection = new signalR.HubConnectionBuilder()
-      .withUrl("https://localhost:44310/notificationHub") // Update URL as necessary
+      //.withUrl("https://localhost:44310/notificationHub") // Update URL as necessary
+      .withUrl("https://localhost:7915/notificationHub") // Update URL as necessary
       .build();
 
-    connection.on("ReceiveNotification", (message) => {
+    connection.on("Unclock", (message) => {
       setNotifications((prev) => [...prev, message]);
     });
 
